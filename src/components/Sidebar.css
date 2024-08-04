@@ -1,0 +1,35 @@
+/* Sidebar.css */
+.sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #c2aeae;
+    padding-top: 20px;
+  }
+  
+  .sidebar h2 {
+    color: rgb(176, 155, 155);
+    text-align: center;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .sidebar ul li a:hover {
+    background-color: #575757;
+  }
